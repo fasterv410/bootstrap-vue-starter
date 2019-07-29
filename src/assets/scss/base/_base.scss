@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+html {
+  font-size: 90%;
+}
+
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+.form-sm {
+  max-width: 576px !important;
+}
+
+.form-md {
+  max-width: 768px !important;
+}
+
+.form-lg {
+  max-width: 992px !important;
+}

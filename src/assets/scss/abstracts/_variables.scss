@@ -1,0 +1,119 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'DIN Pro', 'Prompt', 'Arial', sans-serif !default;
+
+/// Copy text color
+/// @type Color
+$text-color: hsl(0, 0%, 13%);
+
+/// Main brand color
+/// @type Color
+$brand-color: hsl(339, 100%, 45%);
+
+/// Light grey
+/// @type Color
+$light-grey: hsl(0, 0%, 93%);
+
+/// Medium grey
+/// @type Color
+$mid-grey: hsl(0, 0%, 60%);
+
+/// Dark grey
+/// @type Color
+$dark-grey: hsl(0, 0%, 27%);
+
+/// Background color Exchange page
+/// @type Color
+$bg-dark: hsl(228, 12%, 25%);
+
+/// Background color
+/// @type Color
+$very-dark: hsl(229, 15%, 21%);
+
+/// Font size extra large
+$fs-xl: 120%;
+
+/// Font size large
+$fs-lg: 105%;
+
+/// Font size small
+$fs-sm: 95%;
+
+/// Font size extra small
+$fs-xs: 85%;
+
+
+// Color system
+$white:    hsl(0, 0%, 100%) !default;
+$gray-100: hsl(210, 17%, 98%) !default;
+$gray-200: hsl(210, 16%, 93%) !default;
+$gray-300: hsl(210, 14%, 89%) !default;
+$gray-400: hsl(210, 14%, 83%) !default;
+$gray-500: hsl(210, 11%, 71%) !default;
+$gray-600: hsl(210, 7%, 45%) !default;
+$gray-700: hsl(210, 9%, 31%) !default;
+$gray-800: hsl(210, 10%, 23%) !default;
+$gray-900: hsl(210, 11%, 15%) !default;
+$black:    hsl(0, 0%, 0%) !default;
+
+$blue:    hsl(211, 100%, 50%) !default;
+$indigo:  hsl(263, 90%, 51%) !default;
+$purple:  hsl(261, 51%, 51%) !default;
+$pink:    hsl(332, 79%, 58%) !default;
+$red:     hsl(357, 80%, 63%);
+$orange:  hsl(27, 98%, 54%) !default;
+$yellow:  hsl(41, 99%, 67%);
+$green:   hsl(151, 47%, 59%);
+$teal:    hsl(162, 73%, 46%) !default;
+$cyan:    hsl(188, 78%, 41%) !default;
+
+// Color bootstrap
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Main
+$body-bg: $white;
+$body-color: $gray-800;
+$font-size-base: 1rem;
+$grid-gutter-width: 20px;
+
+// Fonts
+$font-family-base: $text-font-stack;
+$font-weight-bold: 500;
+$headings-margin-bottom: 8px;
+$headings-font-weight: $font-weight-bold;
+
+// Card
+$card-border-color: $gray-200;
+$card-cap-bg: rgba(#000000, 0.02);
+$card-border-radius: 10px;
+
+// Form input
+$input-focus-border-color: hsl(211, 100%, 50%);
+$input-btn-padding-y: 0.6rem;
+$input-btn-padding-x: 1.5rem;
+$form-group-margin-bottom: 0.8rem;
+
+// Form button
+$btn-font-size: 1.2rem;
+$btn-font-weight: $font-weight-bold;
+
+// Table
+$table-striped-order: even;
+$table-accent-bg: rgba(#000000, 0.03);
+
+// Add theme color
+$theme-colors: (
+  // "gradient": #fff
+)

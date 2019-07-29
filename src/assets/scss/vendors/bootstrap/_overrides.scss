@@ -1,0 +1,8 @@
+// Disable box shadow on :focus
+.form-control:focus,
+.btn:focus,
+.custom-select:focus,
+.custom-control-input:focus ~ .custom-control-label::before,
+.badge:focus {
+  box-shadow: none !important;
+}
